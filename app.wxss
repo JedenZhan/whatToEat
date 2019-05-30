@@ -1,0 +1,24 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10rpx 0;
+  box-sizing: border-box;
+} 
+.eatItem {
+  height: 70rpx;
+  text-align: center;
+  color: #aaa;
+  vertical-align: middle;
+  margin-top: 30rpx;
+}
+
+.eatItem .itemIcon{
+  height: 70rpx;
+  width: 70rpx;
+  margin-right: 20rpx;
+  vertical-align: middle;
+}

@@ -1,0 +1,9 @@
+.usermotto {
+  margin-top: 150px;
+  overflow: hidden;
+}
+
+.randomFood {
+  margin-top: 50rpx;
+  width: 50%;
+}

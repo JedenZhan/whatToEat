@@ -1,0 +1,7 @@
+<view class="usermotto">
+    <view class='eatItem'>
+      <image src='../../icons/cookie.png' class='itemIcon'></image> <text>{{theFood}}</text>
+    </view>
+    <button class="randomFood" type="primary" size="default" bindtap="randomFood"> 随机一下? </button>
+    <button class="randomFood" type="warn" size="default" bindtap="deleteAll"> 我都不喜欢 /哼/ </button>
+</view>

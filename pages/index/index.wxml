@@ -1,0 +1,19 @@
+<!--index.wxml-->
+<view class="container">
+  <!-- <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo"> 点击获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view> -->
+  <view class="usermotto">
+    <input class='input' name="input" placeholder="input here" bindinput="getInputValue" value="{{whatToEat}}"/>
+    <button class="add" type="primary" size="default" bindtap="add"> 添加 </button>
+  </view>
+  <view class='eatList'>
+    <view class='eatItem' wx:for="{{eatArray}}" wx:for-item="listItem" wx:key="*this">
+      <image src='../../icons/cookie.png' class='itemIcon'></image> <text>{{listItem}}</text>
+    </view>
+  </view>
+</view>
